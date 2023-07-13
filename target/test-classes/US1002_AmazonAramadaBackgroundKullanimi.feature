@@ -3,13 +3,13 @@ Feature: US1002 Kullanici Background kullanarak amazonda istedigi aramalari yapa
   Background:
     Given kullanici amazon anasayfaya gider
 
-
+  @smoke
   Scenario: TC04 Kullanici amazonda Nutella arayabilmeli
     Then arama kutusuna Nutella yazip, ENTER tusuna basar
     And arama sonuclarinin Nutella icerdigini test eder
     And sayfayi kapatir
 
-
+  @smoke
   Scenario: TC05 Kullanici amazonda Samsung aratabilmeli
     Then arama kutusuna Samsung yazip, ENTER tusuna basar
     And arama sonuclarinin Samsung icerdigini test eder
