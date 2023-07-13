@@ -1,4 +1,4 @@
-@wip
+
 Feature: US1003 Amazonda parametre olarak urun arama
 
   Scenario: TC07 Parametre olarak girilen urun aratilabilmeli
