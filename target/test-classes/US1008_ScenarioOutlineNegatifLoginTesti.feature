@@ -1,5 +1,5 @@
 Feature: US1008 liste olarak verilen kullanicilar ile negatif login testi
-  @tc14
+
   Scenario Outline: TC14 Liste olarak verilen kullanicilar ile negatif login testi yapilabilmeli
 
     Given kullanici "qdUrl" anasayfaya gider

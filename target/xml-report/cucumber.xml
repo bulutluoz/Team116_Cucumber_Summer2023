@@ -1,21 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="11.591" tests="1" skipped="0" failures="1" errors="0">
-<testcase classname="US1004 Amazonda listeden ilk urunun dogru oldugunu test eder" name="TC08 ilk urun ismi arattirdigimiz kelimeyi icermeli" time="11.493">
-<failure type="java.lang.AssertionError">
-<![CDATA[java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:87)
-	at org.junit.Assert.assertTrue(Assert.java:42)
-	at org.junit.Assert.assertTrue(Assert.java:53)
-	at stepdefinitions.AmazonStepdefinitions.urun_isminde_oldugunu_test_eder(AmazonStepdefinitions.java:99)
-	at ✽.urun isminde "Kutella" oldugunu test eder(file:///Users/ahmetbulutluoz/Downloads/team116_Cucumber/src/test/resources/US1004_AmazonIlkUrunTesti.feature:9)
-]]>
-</failure>
+<testsuite name="Cucumber" time="11.568" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="US1010 Kullanici hesap olusturur" name="TC16 kullanici girdigi degerlerle hesap olusturabilmeli" time="11.487">
 <system-out><![CDATA[
-Given kullanici "amazonUrl" anasayfaya gider................................passed
-Then arama kutusuna "Nutella" yazip, ENTER tusuna basar.....................passed
-When ilk urunu tiklar.......................................................passed
-Then urun isminde "Kutella" oldugunu test eder..............................failed
-And sayfayi kapatir.........................................................skipped
+Given kullanici "automationUrl" anasayfaya gider............................passed
+And user sign up linkine tiklar.............................................passed
+And user Create an account bölümüne email adresi girer......................passed
+And signUp butonuna basar...................................................passed
+And user kisisel bilgilerini ve iletisim bilgilerini girer..................passed
+And user Create Account butonuna basar......................................passed
+Then hesap olustugunu test edin.............................................passed
 ]]></system-out>
 </testcase>
 </testsuite>
