@@ -30,4 +30,9 @@ public class QdStepdefinitions {
     public void basarili_olarak_giris_yapildigini_test_eder() {
         Assert.assertTrue(qdPage.basariliGirisKontrolElementi.isDisplayed());
     }
+
+    @Then("basarili olarak giris yapilamadigini test eder")
+    public void basariliOlarakGirisYapilamadiginiTestEder() {
+        Assert.assertTrue(qdPage.emailKutusu.isDisplayed());
+    }
 }

@@ -1,6 +1,6 @@
 Feature: US1005 Pozitif login testi
 
-  @wip
+
   Scenario: TC09 kullanici dogru degerlerle uygulamaya giris yapabilmeli
 
     Given kullanici "qdUrl" anasayfaya gider
@@ -9,3 +9,5 @@ Feature: US1005 Pozitif login testi
     And password kutusuna "qdGecerliPassword" yazar
     When login butonuna basar
     Then basarili olarak giris yapildigini test eder
+    And 3 saniye bekler
+    And sayfayi kapatir
