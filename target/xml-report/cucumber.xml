@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.122" tests="1" skipped="0" failures="1" errors="0">
+<testcase classname="US1011 Excel otomasyonu" name="TC17 kullanici excel dosyasini testlerde kullanabilmeli" time="0.014">
+<failure/>
+<system-out><![CDATA[
+Given kullanici excel dosyasini kullanabilecegi ayarlari yapar..............undefined
+Then indexi 1 olan satirdaki indexi 2 olan hucreyi yazdirir.................skipped
+And baskenti "Jakarta" olan ulkenin ingilizce ismini yazdirir...............skipped
+And Ulke sayisininin 190 oldugunu test eder.................................skipped
+And Fiziki olarak kullanilan satir sayisinin 191 oldugunu test eder.........skipped
+And baskenti "Jakarta" olan ulkenin tum bilgilerini yazdirir................skipped
+]]></system-out>
+</testcase>
+</testsuite>

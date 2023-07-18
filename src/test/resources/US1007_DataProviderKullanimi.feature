@@ -5,14 +5,15 @@ Feature: Amazonda verilen toplu olarak verilen kelimeleri aratir
 
     Given kullanici "amazonUrl" anasayfaya gider
     Then arama kutusuna "<aranacakKelime>" yazip, ENTER tusuna basar
+    And 10 saniye bekler
     And arama sonuclarinin "<aranacakKelime>" icerdigini test eder
     Then sayfayi kapatir
 
     Examples:
-    |aranacakKelime|
-    |Nutella |
-    |Java    |
-    |Samsung |
-    |Cannes  |
-    |Nederland|
+    |aranacakKelime |
+    |Java           |
+    |Nutella        |
+    |Samsung        |
+    |Cannes         |
+    |Nederland      |
 
