@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="28.801" tests="3" skipped="0" failures="0" errors="0">
+<testcase classname="US1002 Kullanici Background kullanarak amazonda istedigi aramalari yapar" name="TC06 Kullanici amazonda Java aratabilmeli" time="8.256">
+<system-out><![CDATA[
+Given kullanici amazon anasayfaya gider.....................................passed
+Then arama kutusuna Java yazip, ENTER tusuna basar..........................passed
+And arama sonuclarinin Java icerdigini test eder............................passed
+And sayfayi kapatir.........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US1003 Amazonda parametre olarak urun arama" name="TC07 Parametre olarak girilen urun aratilabilmeli" time="12.072">
+<system-out><![CDATA[
+Given kullanici "amazonUrl" anasayfaya gider................................passed
+Then arama kutusuna "Cokokrem" yazip, ENTER tusuna basar....................passed
+And arama sonuclarinin "Cokokrem" icerdigini test eder......................passed
+And 5 saniye bekler.........................................................passed
+And sayfayi kapatir.........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US1005 Pozitif login testi" name="TC09 kullanici dogru degerlerle uygulamaya giris yapabilmeli" time="8.308">
+<system-out><![CDATA[
+Given kullanici "qdUrl" anasayfaya gider....................................passed
+Then anasayfada login linkine click yapar...................................passed
+And email kutusuna "qdGecerliUsername" yazar................................passed
+And password kutusuna "qdGecerliPassword" yazar.............................passed
+When login butonuna basar...................................................passed
+Then basarili olarak giris yapildigini test eder............................passed
+And 3 saniye bekler.........................................................passed
+And sayfayi kapatir.........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

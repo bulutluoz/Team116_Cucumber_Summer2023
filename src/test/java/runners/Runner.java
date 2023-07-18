@@ -14,7 +14,7 @@ import org.junit.runner.RunWith;
                 },
         features = "src/test/resources",
         glue = "stepdefinitions",
-        tags = "@wip",
+        tags = "@smoke",
 
         dryRun = false
 

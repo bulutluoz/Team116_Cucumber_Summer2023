@@ -1,6 +1,6 @@
 Feature: US1005 Pozitif login testi
 
-  @toplu
+  @toplu @regression
   Scenario: TC09 kullanici dogru degerlerle uygulamaya giris yapabilmeli
 
     Given kullanici "qdUrl" anasayfaya gider

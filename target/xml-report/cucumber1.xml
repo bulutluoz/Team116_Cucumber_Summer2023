@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="24.605" tests="3" skipped="0" failures="0" errors="0">
+<testcase classname="US1002 Kullanici Background kullanarak amazonda istedigi aramalari yapar" name="TC04 Kullanici amazonda Nutella arayabilmeli" time="7.758">
+<system-out><![CDATA[
+Given kullanici amazon anasayfaya gider.....................................passed
+Then arama kutusuna Nutella yazip, ENTER tusuna basar.......................passed
+And arama sonuclarinin Nutella icerdigini test eder.........................passed
+And sayfayi kapatir.........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US1002 Kullanici Background kullanarak amazonda istedigi aramalari yapar" name="TC05 Kullanici amazonda Samsung aratabilmeli" time="6.865">
+<system-out><![CDATA[
+Given kullanici amazon anasayfaya gider.....................................passed
+Then arama kutusuna Samsung yazip, ENTER tusuna basar.......................passed
+And arama sonuclarinin Samsung icerdigini test eder.........................passed
+And sayfayi kapatir.........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US1004 Amazonda listeden ilk urunun dogru oldugunu test eder" name="TC08 ilk urun ismi arattirdigimiz kelimeyi icermeli" time="9.829">
+<system-out><![CDATA[
+Given kullanici "amazonUrl" anasayfaya gider................................passed
+Then arama kutusuna "Nutella" yazip, ENTER tusuna basar.....................passed
+When ilk urunu tiklar.......................................................passed
+Then urun isminde "Nutella" oldugunu test eder..............................passed
+And sayfayi kapatir.........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
